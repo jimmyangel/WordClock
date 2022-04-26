@@ -13,6 +13,6 @@ class TimeWords  {
     static String articleText[2][2];
     static String fractionText[2][4];
     static String numbersText[2][12];
-    static String numbersModText[2][11];
+    static String numbersModText[2][12];
     String fT;
 };

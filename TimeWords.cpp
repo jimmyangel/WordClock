@@ -6,8 +6,8 @@ String TimeWords::articleText[2][2] = {{"LA", "LAS"}, {"", ""}};
 String TimeWords::fractionText[2][4] = {{"PASADAS", "BIEN PASADAS", "CASI", "CASI CASI"},{"A LITTLE BIT OVER", "A BIT OVER", "ALMOST", "NEARLY ALMOST"}};
 String TimeWords::numbersText[2][12] = {{"UNA", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", "SIETE", "OCHO", "NUEVE", "DIEZ", "ONCE", "DOCE"}, 
                                         {"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE"}};
-String TimeWords::numbersModText[2][11] = {{"Y CINCO", "Y DIEZ", "Y CUARTO", "Y VEINTE", "Y VEINTICINCO", "Y MEDIA", "VEINTICINCO PARA", "VEINTE PARA", "UN CUARTO PARA", "DIEZ PARA", "CINCO PARA"},
-                                            {"FIVE AFTER", "TEN AFTER", "QUARTER PAST", "TWENTY AFTER", "TWENTY-FIVE AFTER", "HALF PAST", "TWENTY-FIVE TO", "TWENTY TO", "QUARTER TO", "TEN TO", "FIVE TO"}};
+String TimeWords::numbersModText[2][12] = {{"Y CINCO", "Y DIEZ", "Y CUARTO", "Y VEINTE", "Y VEINTICINCO", "Y MEDIA", "VEINTICINCO PARA", "VEINTE PARA", "UN CUARTO PARA", "DIEZ PARA", "CINCO PARA", ""},
+                                            {"FIVE AFTER", "TEN AFTER", "QUARTER PAST", "TWENTY AFTER", "TWENTY-FIVE AFTER", "HALF PAST", "TWENTY-FIVE TO", "TWENTY TO", "QUARTER TO", "TEN TO", "FIVE TO", ""}};
 
 String &TimeWords::getWords(int hour, int minutes, int lang) {
   int h = (hour > 12) ? hour - 12 : hour;
