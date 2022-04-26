@@ -28,11 +28,11 @@ String &TimeWords::getWords(int hour, int minutes, int lang) {
   fT = pT;
   fT += " ";
   if (mF > 6 && lang == SPANISH) {fT += nMT; fT += " ";}
-  if (mF > 1 && lang == ENGLISH) {fT += nMT; fT += " ";}
+  if (mF >= 1 && lang == ENGLISH) {fT += nMT; fT += " ";}
   fT += aT;
   fT += " ";
   fT += nT;
-  if (mF <=6 && lang == 0) {fT += " "; fT += nMT;}
+  if (mF <=6 && lang == SPANISH) {fT += " "; fT += nMT;}
   if ((mFf == 1 || mFf == 2) && lang == SPANISH) {fT += " "; fT += fractionText[lang][mFf - 1]; };
   if (minutes == 0) {fT += " "; fT += postText[lang][0];};
   return fT;

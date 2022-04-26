@@ -1,8 +1,7 @@
+#ifndef TIMEWORDS_H
+#define TIMEWORDS_H
 #include <M5StickCPlus.h>
-#include <ArduinoLog.h>
-
-const int SPANISH = 0;
-const int ENGLISH = 1;
+#include "constants.h"
 
 class TimeWords  {
   public:
@@ -16,3 +15,5 @@ class TimeWords  {
     static String numbersModText[2][12];
     String fT;
 };
+
+#endif
