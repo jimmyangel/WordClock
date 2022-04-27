@@ -1,8 +1,6 @@
 #include <M5StickCPlus.h>
 #include <Preferences.h>
-#include <WiFi.h>
-#include <time.h>
-#include "timesync.h"
+#include "src/timesync.h"
 #include "src/ClockTask.h"
 
 portMUX_TYPE frtesp32::mux = portMUX_INITIALIZER_UNLOCKED;
