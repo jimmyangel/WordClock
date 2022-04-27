@@ -1,4 +1,4 @@
-## A word clock using the M5StickC Plus ESP32 Platform
+## A word clock using the [M5StickC Plus ESP32 Platform](https://docs.m5stack.com/en/core/m5stickc_plus)
 
 ### Default language is Spanish
 ![](images/M5StickCPlus_spanish.jpg)
